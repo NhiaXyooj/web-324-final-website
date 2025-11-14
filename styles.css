@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.nav-1{
+    list-style-type: none;
+    display: flex;
+}
+.item-link{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
