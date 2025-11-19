@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Schlitz Audubon Nature Center Rebrand</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="1-styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header class="main-header">
@@ -44,5 +45,33 @@
             </ul>
         </nav>
     </header>
+    <main class="main">
+        <div class="main-info">
+            <div class="home-description">
+        <h2>
+            DVC Re-brand Project
+        </h2>
+        <p id="typewriter-text"></p>
+        </div>
+        <h3>TenthEraStudio</h3>
+        </div>
+    </main>
+    <script>
+        const textToType = "This project was a rebrand for a local business within Milwaukee. Changing the entier brand and archetype.";
+const targetElement = document.getElementById("typewriter-text");
+let charIndex = 0;
+const typingSpeed = 70; // milliseconds per character
+
+function typeWriter() {
+  if (charIndex < textToType.length) {
+    targetElement.textContent += textToType.charAt(charIndex);
+    charIndex++;
+    setTimeout(typeWriter, typingSpeed);
+  }
+}
+
+// Start the typewriter effect when the page loads
+window.onload = typeWriter;
+    </script>
 </body>
 </html>
