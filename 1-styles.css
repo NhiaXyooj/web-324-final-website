@@ -21,3 +21,28 @@ body{
     flex-direction: column;
     justify-content: flex-end;
 }
+.site-id{
+font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.sub-head-description{
+font-family: "neue-haas-grotesk-text", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+.personal-brand{
+font-family: "neue-haas-grotesk-text", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+.mini-info{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+html{
+    background-image: url(images/background-owl.png);
+    background-position: left top;
+    background-size: cover;
+}
