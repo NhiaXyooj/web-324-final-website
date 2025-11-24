@@ -5,7 +5,7 @@
     align-items: flex-end;
 }
 .home-description{
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -43,6 +43,7 @@ font-style: normal;
 }
 html{
     background-image: url(images/background-owl.png);
-    background-position: left top;
+    background-position: right -80px top -10px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
