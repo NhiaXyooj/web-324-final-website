@@ -1,4 +1,14 @@
 .about-info{
     max-width: 800px;
     margin: auto;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+.foot-action{
+    display: flex;
+    justify-content:space-between;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+font-weight: 300;
+font-style: normal;
 }
