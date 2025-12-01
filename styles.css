@@ -46,11 +46,13 @@ font-style: normal;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    max-width: 800px;
     margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: "neue-haas-grotesk-text", sans-serif;
 font-weight: 300;
 font-style: normal;
+background-color: rgb(173, 173, 173);
 }
 .crosses{
     width: 90px;
