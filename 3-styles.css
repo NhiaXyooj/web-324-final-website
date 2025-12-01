@@ -3,11 +3,12 @@
 }
 .logo-title{
     display: flex;
-    flex-grow: 2;
+    flex-grow: 0;
     flex-shrink: 0;
      font-family: "neue-haas-grotesk-text", sans-serif;
 font-weight: 500;
 font-style: normal;
+background-color: white;
 }
 .logo-description{
     flex-shrink: 1;
@@ -56,4 +57,15 @@ font-style: normal;
     width: 250px;
     height: 250px;
     padding-top: 550px;
+    padding-right: 300px;
+}
+.brand-mark{
+    width: 250px;
+    height: 250px;
+    padding-top: 450px;
+}
+.tree{
+    max-height: 2000px;
+    position: center;
+    display: flex;
 }

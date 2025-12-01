@@ -46,13 +46,16 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <div class="back-color">
+    <main class="main-stuff">
         <div class="top-info">
             <div class="logo-title">
         <h2>Logo Redesign:</h2>
             </div>
             <div class="intro-info">
-        <p class="logo-description">The owl represents wisdom and intelligence. The design shows off sophistication and mystery to the brand yet at the same time brings forth trust.</p>
+                <div class="logo-description">
+        <p  id="typewriter-text"></p>
+        </div>
         </div>
         </div>
         <div class="images-logos">
@@ -73,7 +76,33 @@
             <div class="word-mark">
                 <img src="logos/04_Wordmark_color.svg">
             </div>
+            <div class="brand-mark">
+                <img src="logos/03_Brandmark_inverse.svg">
+            </div>
         </div>
     </main>
+    </div>
+    <footer class="foot-action">
+        <a href="https://www.linkedin.com/in/xiongnhia/" class="linked-in"></a>
+        <img  class="crosses" src="images/Crosses.svg">
+        <h4>TenthEraStudio</h4>
+    </footer>
+    <script>
+        const textToType = "The owl represents wisdom and intelligence. The design shows off sophistication and mystery to the brand yet at the same time brings forth trust.";
+const targetElement = document.getElementById("typewriter-text");
+let charIndex = 0;
+const typingSpeed = 70; // milliseconds per character
+
+function typeWriter() {
+  if (charIndex < textToType.length) {
+    targetElement.textContent += textToType.charAt(charIndex);
+    charIndex++;
+    setTimeout(typeWriter, typingSpeed);
+  }
+}
+
+// Start the typewriter effect when the page loads
+window.onload = typeWriter;
+    </script>
 </body>
 </html>
