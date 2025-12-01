@@ -1,0 +1,8 @@
+.research-imgs{
+    height: 200px;
+    width: 200px;
+}
+.research-photos{
+    display: flex;
+    justify-content: space-evenly;
+}

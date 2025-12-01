@@ -48,6 +48,7 @@
     </header>
     <div class="back-color">
     <main class="main-stuff">
+        <img  class="thumbnail" src="images/Tree.svg">
         <div class="top-info">
             <div class="logo-title">
         <h2>Logo Redesign:</h2>
@@ -103,6 +104,16 @@ function typeWriter() {
 
 // Start the typewriter effect when the page loads
 window.onload = typeWriter;
+</script>
+<script>
+import SimpleParallax from "simple-parallax-js/vanilla";
+var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image);
+
+//You can also choose to apply the parallax on multiple images:
+
+var images = document.querySelectorAll('img');
+new simpleParallax(images);
     </script>
 </body>
 </html>
