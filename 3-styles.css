@@ -21,51 +21,38 @@ background-color: white;
     display: flex;
     align-items: center;
 }
-.images-logos{
-    max-width: 1000px;
-    margin: auto;
-    padding-top: 30px;
-    display: flex;
+.logo-imgs{
+    display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-basis: 60%;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
 }
-.first-img{
-    width: 450px;
-    height: 450px;
-    flex-shrink: 0;
-}
-.main-logo{
-    width: 450px;
-    height: 450px;
-    flex-shrink: 0;
-    padding-left: 10px;
-}
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
-.vertical-logo{
-    width: 350px;
-    height: 100px;
-}
-.inverse-logo{
-    width: 350px;
-    height: 200px;
-    padding-left: 300px;
-}
-.word-mark{
-    width: 250px;
-    height: 250px;
-    padding-top: 550px;
-    padding-right: 300px;
-}
-.brand-mark{
-    width: 250px;
-    height: 250px;
-    padding-top: 450px;
-}
-.tree{
-    max-height: 2000px;
-    position: center;
-    display: flex;
-}
+.parallax-container {
+      perspective: 1px; /* Defines the 3D viewing perspective */
+      transform-style: preserve-3d; /* Enables 3D rendering for children */
+      height: 400px; /* Or a fixed height */
+      overflow-x: hidden;
+      overflow-y: auto; /* Allows scrolling within the container */
+      scrollbar-width: none;
+ }
+  .parallax-layer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    .parallax-background {
+      transform: translateZ(-3px) scale(2); /* Pushes back, scales to compensate */
+    }
+
+    .parallax-foreground {
+      transform: translateZ(0); /* Keeps at original depth */
+    }
+
+    .parallax-middle {
+      transform: translateZ(-0.5px) scale(1.5); /* Pushes back less than background */
+    }

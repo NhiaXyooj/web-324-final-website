@@ -2,12 +2,36 @@
     max-width: 800px;
     margin: auto;
 }
+@keyframes slide-in-left {
+  from {
+    transform: translateX(100%);
+    
+  }
+  to {
+    transform: translateX(0); 
+  }
+}
+@keyframes fadeIn {
+        0% {
+            opacity: 0; /* Start completely transparent */
+        }
+        50% {
+            opacity: 0.5; /* Halfway, 50% visible */
+        }
+        100% {
+            opacity: 1; /* End fully opaque */
+        }
+    }
 .primary-type{
     font-size: 100px;
     font-family: "abril-display", serif;
     font-weight: 800;
     font-style: normal;
     color: #273c52;
+    animation-name: fadeIn; 
+        animation-duration: 4s; 
+        animation-timing-function: ease-in-out; 
+        animation-fill-mode: forwards;
 }
 .first-filler-text{
     font-family: "abril-display", serif;
