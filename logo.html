@@ -11,6 +11,7 @@
 <body>
     <header class="main-header">
         <h1>Schlitz Audubon Nature Center Rebrand</h1>
+        <div class="navigation">
         <nav>
             <ul  class="nav-1">
                 <li>
@@ -45,6 +46,7 @@
                 </li>
             </ul>
         </nav>
+        </div>
     </header>
     <div class="back-color">
                 <div class="parallax-container">
@@ -52,17 +54,11 @@
             style="width: 1500px; height: 1000px;">
         </div>
     <main class="main-stuff">
-        <div class="top-info">
-            <div class="logo-title">
-        <h2>Logo Redesign:</h2>
-            </div>
-            <div class="intro-info">
-                <div class="logo-description">
-        <p  id="typewriter-text"></p>
-        </div>
-        </div>
+        <div class="logo-title">
+        <h1>Logo Redesign:</h1>
         </div>
         <div class="logo-imgs">
+            <div class="left-column">
             <div class="containter-main">
                 <img style="width: 350px; height: 400px;" src="logos/Main_logo_72dpi.svg">
             </div>
@@ -72,14 +68,28 @@
             <div class="containter-third">
                 <img style="width: 350px; height: 400px;" src="logos/02_digital_color.svg">
             </div>
+            </div>
+            <div class="right-column">
+                <div class="top-info">
+            <div class="logo-title">
+            </div>
+            <div class="intro-info">
+                <div class="logo-description">
+        <p>The owl represents wisdom and intelligence. The design shows off sophistication and mystery to the brand yet at the same time brings forth trust.</p>
+        </div>
+        </div>
+        </div>
+        <div class="right-imgs">
             <div class="containter-fourth">
                 <img style="width: 350px; height: 400px;" src="logos/02_digital_black.svg">
             </div>
             <div class="containter-fifth">
                 <img style="width: 350px; height: 400px;" src="logos/04_Wordmark_color.svg">
             </div>
-            <div class="containter-fifth">
+            <div class="containter-sixth">
                 <img style="width: 350px; height: 400px;" src="logos/03_Brandmark_inverse.svg">
+            </div>
+            </div>
             </div>
             </div>
     </main>
@@ -89,22 +99,5 @@
         <img  class="crosses" src="images/Crosses.svg">
         <h4>TenthEraStudio</h4>
     </footer>
-    <script>
-        const textToType = "The owl represents wisdom and intelligence. The design shows off sophistication and mystery to the brand yet at the same time brings forth trust.";
-const targetElement = document.getElementById("typewriter-text");
-let charIndex = 0;
-const typingSpeed = 70; // milliseconds per character
-
-function typeWriter() {
-  if (charIndex < textToType.length) {
-    targetElement.textContent += textToType.charAt(charIndex);
-    charIndex++;
-    setTimeout(typeWriter, typingSpeed);
-  }
-}
-
-// Start the typewriter effect when the page loads
-window.onload = typeWriter;
-</script>
 </body>
 </html>
