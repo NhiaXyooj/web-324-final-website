@@ -1,0 +1,13 @@
+.container-1{
+    display: flex;
+}
+.mockup-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(white, #273c52);
+}
+.page-title{
+    margin-left: 30px;
+}

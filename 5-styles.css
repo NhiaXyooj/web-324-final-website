@@ -7,7 +7,7 @@
     justify-content: space-evenly;
 }
 .container-1{
-    margin: 10px;
+    margin: 30px;
 }
 .second-title{
     display: flex;
@@ -24,4 +24,30 @@
     flex-wrap: wrap;
     margin-top: 50px;
     justify-content: center;
+}
+.title{
+    font-size: 24pt;
+    text-align: center;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+}
+.page-title{
+    font-size: 36pt;
+}
+.sub-title{
+    font-size: 14pt;
+    font-weight: bold;
+    display: flex;
+    margin-right: 30px;
+}
+.sub-info{
+    display: flex;
+    align-items: baseline;    
+}
+.description{
+    width: 650px;
+}
+.sketches{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

@@ -1,6 +1,5 @@
 .wrapped{
-    max-width: 800px;
-    margin: auto;
+    margin: 50px 50px 50px 50px;
 }
 @keyframes slide-in-left {
   from {
@@ -23,9 +22,9 @@
         }
     }
 .primary-type{
-    font-size: 100px;
+    font-size: 48pt;
     font-family: "abril-display", serif;
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
     color: #273c52;
     animation-name: fadeIn; 
@@ -35,29 +34,50 @@
 }
 .first-filler-text{
     font-family: "abril-display", serif;
-    font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 18pt;
+    width: 400px;
+    margin-left: 30px;
+    flex-shrink: 0;
 }
 .secondary-type{
     font-family: "brandon-grotesque", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 48px;
+    font-size: 36pt;
     color: #7c6c50;
 }
 .secondary-filler-text{
     font-family: "brandon-grotesque", sans-serif;
-    font-weight: 300;
     font-style: normal;
-    font-size: 24px;
+    font-size: 18pt;
+    width: 400px;
+    margin-left: 30px;
+    flex-shrink: 0;
 }
 h2{
     font-size: 36px;
     font-family: "neue-haas-grotesk-text", sans-serif;
-    font-weight: 400;
+    font-weight: 750;
     font-style: normal;
 }
 .title-type{
-    font-size: 48px;
+    font-size: 48pt;
+}
+.top-font{
+    display: flex;
+    margin-left: 50px;
+}
+.abcs{
+    font-size: 36pt;
+    margin-left: 20px;
+    font-family: "abril-display", serif; 
+}
+.abcs-2{
+    font-size: 36pt;
+    margin-left: 20px;
+    font-family: "brandon-grotesque", sans-serif;
+}
+.showcase{
+    flex-direction: column;
 }

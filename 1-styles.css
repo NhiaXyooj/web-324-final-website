@@ -31,16 +31,19 @@ font-style: normal;
 font-family: "neue-haas-grotesk-text", sans-serif;
 font-weight: 500;
 font-style: normal;
+margin-left: 30px;
 }
 .personal-brand{
 font-family: "neue-haas-grotesk-text", sans-serif;
 font-weight: 500;
 font-style: normal;
+margin-right: 30px;
 }
 .mini-info{
     font-family: "neue-haas-grotesk-text", sans-serif;
 font-weight: 300;
 font-style: normal;
+margin-left: 30px;
 }
 html{
     background-image: url(images/background-owl.png);

@@ -1,0 +1,18 @@
+.wrapped{
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 300px;
+}
+.credits{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+body{
+        background-image: linear-gradient(white, #273c52);
+        background-repeat: no-repeat;
+}

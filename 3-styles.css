@@ -3,8 +3,8 @@
      font-family: "neue-haas-grotesk-text", sans-serif;
 font-weight: 700px;
 font-style: normal;
-background-color: white;
 margin-left: 20px;
+text-align: center;
 }
 .logo-description{
     padding-left: 20px;
@@ -66,5 +66,4 @@ margin-left: 20px;
     .right-imgs{
       margin-top: 100px;
     }
-
     
