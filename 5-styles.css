@@ -6,3 +6,18 @@
     display: flex;
     justify-content: space-evenly;
 }
+.container-1{
+    margin: 10px;
+}
+.second-title{
+    display: flex;
+    flex-direction: column;
+}
+.comp-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.moodboards{
+    display: flex;   
+}
